@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		9328B96026E6211B00197B12 /* BDFComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 9328B95E26E6211B00197B12 /* BDFComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9328B96726E62A1C00197B12 /* BGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9328B96626E62A1C00197B12 /* BGView.swift */; };
+		93C7F36727785559004AF79A /* BDFConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C7F36627785559004AF79A /* BDFConfiguration.swift */; };
+		93C7F36927785630004AF79A /* BDFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C7F36827785630004AF79A /* BDFTextField.swift */; };
+		DDE3658D15C6DE1D1BF779DA /* Pods_BDFComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A09CC1C56789E0EC85F8AF /* Pods_BDFComponent.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,8 +19,11 @@
 		9328B95E26E6211B00197B12 /* BDFComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDFComponent.h; sourceTree = "<group>"; };
 		9328B95F26E6211B00197B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9328B96626E62A1C00197B12 /* BGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGView.swift; sourceTree = "<group>"; };
+		93C7F36627785559004AF79A /* BDFConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDFConfiguration.swift; sourceTree = "<group>"; };
+		93C7F36827785630004AF79A /* BDFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDFTextField.swift; sourceTree = "<group>"; };
 		9DF5EDE1517B4439E99669D3 /* Pods-BDFComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDFComponent.debug.xcconfig"; path = "Target Support Files/Pods-BDFComponent/Pods-BDFComponent.debug.xcconfig"; sourceTree = "<group>"; };
 		E0EDE9696A0F5E25E9421883 /* Pods-BDFComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDFComponent.release.xcconfig"; path = "Target Support Files/Pods-BDFComponent/Pods-BDFComponent.release.xcconfig"; sourceTree = "<group>"; };
+		F7A09CC1C56789E0EC85F8AF /* Pods_BDFComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BDFComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDE3658D15C6DE1D1BF779DA /* Pods_BDFComponent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +50,7 @@
 		3F4D473BC3A9694B3AB0B8DF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F7A09CC1C56789E0EC85F8AF /* Pods_BDFComponent.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -71,6 +79,8 @@
 				9328B95E26E6211B00197B12 /* BDFComponent.h */,
 				9328B95F26E6211B00197B12 /* Info.plist */,
 				9328B96626E62A1C00197B12 /* BGView.swift */,
+				93C7F36627785559004AF79A /* BDFConfiguration.swift */,
+				93C7F36827785630004AF79A /* BDFTextField.swift */,
 			);
 			path = BDFComponent;
 			sourceTree = "<group>";
@@ -181,6 +191,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9328B96726E62A1C00197B12 /* BGView.swift in Sources */,
+				93C7F36927785630004AF79A /* BDFTextField.swift in Sources */,
+				93C7F36727785559004AF79A /* BDFConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
